@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,CAAC;ECUH,OAAO,EAAE,IAAI;EACb,eAAe,EDVA,aAAa;ECczB,cAAc,EDdoB,GAAG;EACxC,aAAa,EAAE,aAAa;EAC5B,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,wBAA0C;EACjD,MAAM,EAAE,wBAA0C;CAS3B;;AAd1B,AAOG,KAPE,CAOF,KAAK,CAAC;ECGN,OAAO,EAAE,IAAI;EACb,eAAe,EDHG,MAAM;ECKrB,WAAW,EDLY,MAAM;EAC7B,KAAK,ECJC,IAAI;EDKV,MAAM,ECLA,IAAI;EDMV,MAAM,EAAE,MAAK,CAAC,KAAK,CCZjB,IAAI;EDaN,SAAS,EAAE,eAAyB;EACpC,cAAc,EAAE,SAAS;EACzB,MAAM,EAAE,OAAO;CAAG",
+    "sources": [
+        "../sass/tris-style.sass",
+        "../../assets/sass/_variables.sass"
+    ],
+    "names": [],
+    "file": "tris-style.css"
+}

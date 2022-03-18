@@ -1,0 +1,43 @@
+#grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: false;
+      -ms-flex-pack: false;
+          justify-content: false;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: calc( 5rem * 10);
+  height: 30rem;
+  border-bottom: 0.3rem solid #fff;
+}
+
+#grid > div {
+  width: 5rem;
+  height: 5rem;
+}
+
+#grid .duck {
+  background-image: url("../img/duck.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -webkit-transition: -webkit-transform .4s ease;
+  transition: -webkit-transform .4s ease;
+  transition: transform .4s ease;
+  transition: transform .4s ease, -webkit-transform .4s ease;
+}
+
+#grid .duck-jump {
+  -webkit-transform: translate(0, -120%);
+          transform: translate(0, -120%);
+}
+
+#grid .plant:not(.duck) {
+  background-image: url("../img/plant.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+/*# sourceMappingURL=running-duck-style.css.map */

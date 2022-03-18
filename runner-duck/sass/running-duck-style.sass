@@ -1,0 +1,21 @@
+@import ../../assets/sass/_variables
+
+#grid
+   @include flex( false, flex-end, false )
+   width: calc( #{$road-size} * 10 )
+   height: 30rem
+   border-bottom: .3rem solid $white
+
+   > div
+      width: $road-size
+      height: $road-size
+
+   .duck
+      @include bgImage('../img/duck.webp')
+      transition: transform .4s ease
+
+   .duck-jump
+      transform: translate(0, -120%)
+
+   .plant:not(.duck)
+      @include bgImage('../img/plant.webp')

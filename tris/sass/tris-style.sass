@@ -1,0 +1,17 @@
+@import ../../assets/sass/_variables
+
+#grid
+   @include flex( space-between, false, row )
+   align-content: space-between
+   flex-wrap: wrap
+   width: calc( (#{$cell-size} + #{$cell-gap}) * 3 )
+   height: calc( (#{$cell-size} + #{$cell-gap}) * 3 )
+
+   .cell
+      @include flex( center, center, false )
+      width: $cell-size
+      height: $cell-size
+      border: .3rem solid $white
+      font-size: calc( #{$cell-size} / 2 )
+      text-transform: uppercase
+      cursor: pointer

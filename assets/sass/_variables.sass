@@ -1,0 +1,32 @@
+$blue: #3535eb
+$white: #fff
+$red: #f71568
+$green: #008000
+
+$arcade-font: 'Press Start 2P', monospace, sans-serif
+
+$cell-size: 6rem
+$cell-size-sm: 2.5rem
+$cell-gap: 1rem
+$cell-gap-md: 2rem
+$card-size: 9rem
+$road-size: 5rem
+$grid-size: 15
+
+@mixin flex( $justify, $align, $direction )
+   display: flex
+   justify-content: $justify
+   @if $align
+      align-items: $align
+   @if $direction
+      flex-direction: $direction
+
+@mixin bgImage( $url )
+   background-repeat: no-repeat
+   background-size: contain
+   background-position: center
+   @if $url
+      background-image: url($url)
+
+@mixin transition
+   transition: all 1s ease-out

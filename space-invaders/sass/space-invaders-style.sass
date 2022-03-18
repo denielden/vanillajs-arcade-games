@@ -1,0 +1,25 @@
+@import ../../assets/sass/_variables
+   
+#grid
+   @include flex( start, start, false )
+   flex-wrap: wrap
+   width: calc( #{$cell-size-sm} * #{$grid-size} + .6rem )
+   height: calc( #{$cell-size-sm} * #{$grid-size} + .6rem )
+   border: .3rem solid $white
+
+   > div
+      width: $cell-size-sm
+      height: $cell-size-sm
+      @include bgImage( false )
+
+   .alien
+      background-image: url('../img/alien.webp')
+
+   .spaceship
+      background-image: url('../img/spaceship.webp')
+
+   .laser
+      background-image: url('../img/laser.webp')
+      
+   .boom
+      background-image: url('../img/boom.webp')

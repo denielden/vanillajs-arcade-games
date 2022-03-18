@@ -1,0 +1,31 @@
+@import ../../assets/sass/_variables
+
+#grid
+   @include flex( start, false, false )
+   flex-wrap: wrap
+   width: calc( #{$card-size} * 4 )
+   height: calc( #{$card-size} * 3 )
+
+   .card
+      width: $card-size
+      height: $card-size
+      bgImage('../img/back.webp')
+      cursor: pointer
+
+   .alien
+      background-image: url(../img/alien.webp)
+
+   .bug
+      background-image: url(../img/bug.webp)
+
+   .duck
+      background-image: url(../img/duck.webp)
+
+   .rocket
+      background-image: url(../img/rocket.webp)
+
+   .spaceship
+      background-image: url(../img/spaceship.webp)
+
+   .tiktac
+      background-image: url(../img/tiktac.webp)

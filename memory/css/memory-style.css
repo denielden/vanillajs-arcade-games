@@ -1,0 +1,46 @@
+#grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: calc( 9rem * 4);
+  height: calc( 9rem * 3);
+}
+
+#grid .card {
+  width: 9rem;
+  height: 9rem;
+  background-image: url(../img/back.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+#grid .alien {
+  background-image: url(../img/alien.webp);
+}
+
+#grid .bug {
+  background-image: url(../img/bug.webp);
+}
+
+#grid .duck {
+  background-image: url(../img/duck.webp);
+}
+
+#grid .rocket {
+  background-image: url(../img/rocket.webp);
+}
+
+#grid .spaceship {
+  background-image: url(../img/spaceship.webp);
+}
+
+#grid .tiktac {
+  background-image: url(../img/tiktac.webp);
+}
+/*# sourceMappingURL=memory-style.css.map */

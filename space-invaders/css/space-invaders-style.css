@@ -1,0 +1,41 @@
+#grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: calc( 2.5rem * 15 + .6rem);
+  height: calc( 2.5rem * 15 + .6rem);
+  border: 0.3rem solid #fff;
+}
+
+#grid > div {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#grid .alien {
+  background-image: url("../img/alien.webp");
+}
+
+#grid .spaceship {
+  background-image: url("../img/spaceship.webp");
+}
+
+#grid .laser {
+  background-image: url("../img/laser.webp");
+}
+
+#grid .boom {
+  background-image: url("../img/boom.webp");
+}
+/*# sourceMappingURL=space-invaders-style.css.map */

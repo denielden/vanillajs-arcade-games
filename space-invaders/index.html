@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="shortcut icon" href="https://denielden.github.io/img/favicon.svg" type="image/svg+xml">
+   <meta name="author" content="Deniel Den">
+	<title>Space Invaders - Arcade Mania Games</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="./css/space-invaders-style.css" rel="stylesheet">
+</head>
+<body>
+
+	<main>
+      <div class="board">
+         <section class="game-data">
+            <h1>Space Invaders</h1>
+            <p>Press the keys &#8592; and &#8594; to move the spaceship.<br>SPACE to shoot aliens!</p>
+            <h3>Points: <span id="points"></span></h3>
+            <a href="/" class="btn">Change game</a>
+         </section>
+
+         <section class="game-area">
+            <div id="grid">
+            </div>
+         </section>
+      </div>
+	</main>
+
+	<footer class="txt-center">&copy <span id="currentDate"></span> developed by <a href="https://denielden.github.io" target="_blank">denie/den</a></footer>
+		
+   <script src="../assets/js/utils.js" defer></script>
+   <script src="./js/script.js" defer></script>
+</body>
+</html>
